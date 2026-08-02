@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="glass-card" style={{ padding: '2rem 1.5rem', textAlign: 'center' }}>
       <div className="avatar-frame">
-        <img className="avatar-img" src="/public/img/I.jpg" alt="Артём Тыщенко" />
+        <img className="avatar-img" src="/img/I.jpg" alt="Артём Тыщенко" />
       </div>
       <div className="tagline">✦ ТВОЙ ПУТЬ — ТВОИ ПРАВИЛА ✦</div>
       <h1>Артём Тыщенко</h1>
