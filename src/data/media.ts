@@ -8,7 +8,7 @@ export interface MediaItem {
   blurb?: string
 }
 
-
+// Чтобы добавить тайтл: положите обложку в public/img/ и добавьте объект сюда
 export const mediaItems: MediaItem[] = [
   {
     id: 'm1',
