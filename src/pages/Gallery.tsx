@@ -38,7 +38,7 @@ export default function Gallery() {
           <div className="media-item" key={item.id} onClick={() => setSelectedId(item.id)}>
             <img
               className="cover-img"
-              src={item.cover}
+              src={`${import.meta.env.BASE_URL}img/${item.cover}`}
               alt={item.name}
               onError={(e) => {
                 e.currentTarget.src = `https://placehold.co/130x180/222/white?text=${encodeURIComponent(item.name)}`
@@ -55,7 +55,7 @@ export default function Gallery() {
           <div className="glass-card modal-box" onClick={(e) => e.stopPropagation()}>
             <img
               className="cover-img"
-              src={selected.cover}
+              src={`${import.meta.env.BASE_URL}img/${selected.cover}`}
               alt={selected.name}
               style={{ width: '150px', height: '210px' }}
               onError={(e) => {

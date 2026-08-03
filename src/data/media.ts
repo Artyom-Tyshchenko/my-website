@@ -8,42 +8,43 @@ export interface MediaItem {
   blurb?: string
 }
 
-// Чтобы добавить тайтл: положите обложку в public/img/ и добавьте объект сюда
+// Чтобы добавить тайтл: положите обложку в public/img/ и добавьте объект сюда.
+// В поле cover указывайте только имя файла — путь до него собирается автоматически.
 export const mediaItems: MediaItem[] = [
   {
     id: 'm1',
     name: 'One Piece',
     type: 'Манга',
-    cover: '/img/One-Piece.jpg',
+    cover: 'One-Piece.jpg',
   },
   {
     id: 'm2',
     name: 'My Hero Academia',
     type: 'Манга',
-    cover: '/img/My_Hero_Academia_Poster.png',
+    cover: 'My_Hero_Academia_Poster.png',
   },
   {
     id: 'm3',
     name: 'Blade of the Immortal',
     type: 'Манга',
-    cover: '/img/Клинок бессмертного.jpg',
+    cover: 'Клинок бессмертного.jpg',
   },
   {
     id: 'm4',
     name: 'Cowboy Bebop',
     type: 'Аниме',
-    cover: '/img/Cowboy Bebop.png',
+    cover: 'Cowboy Bebop.png',
   },
   {
     id: 'm5',
     name: 'Legend of the Galactic Heroes',
     type: 'Аниме',
-    cover: '/img/Легенда о героях галактики.png',
+    cover: 'Легенда о героях галактики.png',
   },
   {
     id: 'm6',
     name: 'Samurai Champloo',
     type: 'Аниме',
-    cover: '/img/Самурай Чамплу.jpg',
+    cover: 'Самурай Чамплу.jpg',
   },
 ]
